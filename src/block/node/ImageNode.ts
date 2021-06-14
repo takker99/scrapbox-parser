@@ -1,7 +1,7 @@
-import { createNodeParser } from './creator'
+import { createNodeParser } from './creator.ts'
 
-import type { ImageNode } from './type'
-import type { NodeCreator } from './creator'
+import type { ImageNode } from './type.ts'
+import type { NodeCreator } from './creator.ts'
 
 const srcFirstStrongImageRegExp = /\[https?:\/\/[^\s\]]+\.(?:png|jpe?g|gif|svg)(?:\?[^\]\s]+)?(?:\s+https?:\/\/[^\s\]]+)?\]/i
 const linkFirstStrongImageRegExp = /\[https?:\/\/[^\s\]]+\s+https?:\/\/[^\s\]]+\.(?:png|jpe?g|gif|svg)(?:\?[^\]\s]+)?\]/i

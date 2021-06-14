@@ -1,6 +1,6 @@
-import type { NodeCreator } from './creator'
-import { createNodeParser } from './creator'
-import type { LinkNode } from './type'
+import type { NodeCreator } from './creator.ts'
+import { createNodeParser } from './creator.ts'
+import type { LinkNode } from './type.ts'
 
 const hrefFirstUrlRegExp = /\[https?:\/\/[^\s\]]+\s+[^\]]*[^\s]\]/
 const contentFirstUrlRegExp = /\[[^[\]]*[^\s]\s+https?:\/\/[^\s\]]+\]/

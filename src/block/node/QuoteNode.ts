@@ -1,8 +1,8 @@
-import { convertToNodes } from '.'
-import { createNodeParser } from './creator'
+import { convertToNodes } from './index.ts'
+import { createNodeParser } from './creator.ts'
 
-import type { QuoteNode } from './type'
-import type { NodeCreator } from './creator'
+import type { QuoteNode } from './type.ts'
+import type { NodeCreator } from './creator.ts'
 
 const quoteRegExp = /^>.*$/
 

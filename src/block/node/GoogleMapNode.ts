@@ -1,7 +1,7 @@
-import { createNodeParser } from './creator'
+import { createNodeParser } from './creator.ts'
 
-import type { GoogleMapNode } from './type'
-import type { NodeCreator } from './creator'
+import type { GoogleMapNode } from './type.ts'
+import type { NodeCreator } from './creator.ts'
 
 const placeFirstGoogleMapRegExp = /\[([^\]]*[^\s])\s+([NS]\d+(?:\.\d+)?,[EW]\d+(?:\.\d+)?(?:,Z\d+)?)\]/
 const coordFirstGoogleMapRegExp = /\[([NS]\d+(?:\.\d+)?,[EW]\d+(?:\.\d+)?(?:,Z\d+)?)(?:\s+([^\]]*[^\s]))?\]/

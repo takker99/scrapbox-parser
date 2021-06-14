@@ -1,7 +1,7 @@
-import { createNodeParser } from './creator'
+import { createNodeParser } from './creator.ts'
 
-import type { HelpfeelNode } from './type'
-import type { NodeCreator } from './creator'
+import type { HelpfeelNode } from './type.ts'
+import type { NodeCreator } from './creator.ts'
 
 const helpfeelRegExp = /^\? .+$/
 

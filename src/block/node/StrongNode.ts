@@ -1,8 +1,8 @@
-import { createNodeParser } from './creator'
+import { createNodeParser } from './creator.ts'
 
-import { convertToNodes } from '.'
-import type { StrongNode } from './type'
-import type { NodeCreator } from './creator'
+import { convertToNodes } from './index.ts'
+import type { StrongNode } from './type.ts'
+import type { NodeCreator } from './creator.ts'
 
 const strongRegExp = /\[\[(?:[^[]|\[[^[]).*?\]*\]\]/
 

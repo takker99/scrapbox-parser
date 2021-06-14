@@ -2,17 +2,17 @@
   "version": "0.1",
   "language": "en",
   "words": [
-      "decos",
-      "helpfeel",
-      "gyazo",
-      "coord",
-      "progfay",
-      "scrapbox",
-      "backquote",
-      "hoge",
-      "fuga",
-      "piyo",
-      "tsbuildinfo"
+    "decos",
+    "helpfeel",
+    "gyazo",
+    "coord",
+    "progfay",
+    "scrapbox",
+    "backquote",
+    "hoge",
+    "fuga",
+    "piyo",
+    "tsbuildinfo"
   ],
   "ignorePaths": [
     "node_modules/**",

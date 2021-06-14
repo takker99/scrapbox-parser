@@ -1,24 +1,24 @@
-import { convertToNodes } from './node/index.ts'
+import { convertToNodes } from "./node/index.ts";
 
-import type { Row } from './Row.ts'
-import type { Node } from './node/type.ts'
+import type { Row } from "./Row.ts";
+import type { Node } from "./node/type.ts";
 
 export interface LinePack {
-  type: 'line'
-  rows: [Row]
+  type: "line";
+  rows: [Row];
 }
 
 export interface Line {
-  indent: number
-  type: 'line'
-  nodes: Node[]
+  indent: number;
+  type: "line";
+  nodes: Node[];
 }
 
 export const convertToLine = (pack: LinePack): Line => {
-  const { indent, text } = pack.rows[0]
+  const { indent, text } = pack.rows[0];
   return {
     indent,
-    type: 'line',
-    nodes: convertToNodes(text.substring(indent))
-  }
-}
+    type: "line",
+    nodes: convertToNodes(text.substring(indent)),
+  };
+};

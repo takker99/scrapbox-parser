@@ -36,7 +36,7 @@ const FalsyEliminator: NodeParser = (text, _, next) => {
 
 const combineNodeParsers = (...parsers: NodeParser[]) =>
   (
-    text: string = "",
+    text = "",
     opts: NodeParserOption = { nested: false, quoted: false },
   ): Node[] =>
     parsers.reduceRight(
